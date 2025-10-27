@@ -48,7 +48,7 @@ console.log(count);
 .box-left {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
   width: 100%;
 }
 .box-left h1 {
@@ -62,14 +62,15 @@ console.log(count);
   display: flex; /* จอใหญ่โชว์ */
   position: relative;
   width: 64px;
-  height: 40px;
+  height: 35px;
   background-color: #ddd;
   border-style: none;
   border-radius: 8px;
+  width: 256px;
 }
 @media screen and (max-width: 768px) {
   .box-left-search {
-    display: none; /* จอเล็กซ่อน */
+    display: none;
   }
 }
 .search {
@@ -87,6 +88,7 @@ console.log(count);
   background-color: #f2f4f7;
   border-style: none;
   outline-width: 0px;
+  width: 100%;
 }
 .box-left input:hover {
   border-style: none;
